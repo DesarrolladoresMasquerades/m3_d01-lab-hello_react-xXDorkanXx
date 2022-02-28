@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.Navbar-menu{
+  width: 30px;
+  height: 20px;
+}
+
+.Main{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 30px 80px 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Section-intro{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.Section-intro>h1{
+  width: 60%;
+  font-size: 4em;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.Section-intro>p{
+  width: 45%;
+  text-align: left;
+}
+
+.Section-intro>button{
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 30px 20px 30px;
+  background-color: white;
+  color: #282c34;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: 20px solid white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
